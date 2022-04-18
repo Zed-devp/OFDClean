@@ -1,6 +1,6 @@
 # OFDClean
 
-Pythpn implementation of Contextual Data Cleaning with Ontological Functional Dependencies.
+Python implementation of Contextual Data Cleaning with Ontological Functional Dependencies.
 
 ## Datasets
 
