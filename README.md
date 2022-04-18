@@ -35,7 +35,7 @@ The source code is available at https://github.com/mac-dsl/OFDClean.
 
 ## 5. References
 [1] S. Baskaran, A. Keller, F. Chiang, L. Golab, and J. Szlichta. Efficient discovery of ontology functional dependencies. In CIKM, pages 1847–1856, 2017. <br>
-[2] Z. Zheng, L. Zheng, M. Alipour, F. Chiang, L. Golab, J. Szlichta, S. Baskaran, and A. Keller. Contextual data cleaning with ontology functional dependencies. ACM Journal of Data and Information Quality (JDIQ) https://github.com/zzheng0620/Thesis/blob/main/_JDIQ_2022_Camera_Ready_Contextual_Data_Cleaning_with_Ontology_Functional_Dependencies.pdf, 25 pages, 2022.<br>
+[2] Z. Zheng, L. Zheng, M. Alipour, F. Chiang, L. Golab, J. Szlichta, S. Baskaran, and A. Keller. Contextual data cleaning with ontology functional dependencies. ACM Journal of Data and Information Quality (JDIQ) https://github.com/zzheng0620/Thesis/blob/main/_JDIQ_2022_Camera_Ready__Contextual_Data_Cleaning_with_Ontology_Functional_Dependencies.pdf, 25 pages, 2022.<br>
 [3] A. Johnson, T. Pollard, M. Ghassemi, B. Moody, P. Szolovits, and R. Mark, “MIMIC-III, a freely accessible critical care database,” Scientific Data, vol. 3, no. 160035, 2016. <br>
 [4] Cinnos Mission Critical, “Data center readings,” https://www.cas.mcmaster.ca/∼zhengz13/Dataset/Sensor.rar, 2018. <br>
 [5] D. Chen, “Online retail data set,” https://archive.ics.uci.edu/ml/, 2015 <br>
