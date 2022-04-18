@@ -36,20 +36,18 @@ The source code is available at https://github.com/mac-dsl/OFDClean.
 ## 5. References
 [1] S. Baskaran, A. Keller, F. Chiang, L. Golab, and J. Szlichta. Efficient discovery of ontology functional dependencies. In CIKM, pages 1847–1856, 2017. <br>
 [2] Z. Zheng, L. Zheng, M. Alipour, F. Chiang, L. Golab, J. Szlichta, S. Baskaran, and A. Keller. Contextual data cleaning with ontology functional dependencies. ACM Journal of Data and Information Quality (JDIQ) https://github.com/zzheng0620/Thesis/blob/main/_JDIQ_2022_Camera_Ready__Contextual_Data_Cleaning_with_Ontology_Functional_Dependencies.pdf, 25 pages, 2022.<br>
-[3] A. Johnson, T. Pollard, M. Ghassemi, B. Moody, P. Szolovits, and R. Mark, “MIMIC-III, a freely accessible critical care database,” Scientific Data, vol. 3, no. 160035, 2016. <br>
-[4] Cinnos Mission Critical, “Data center readings,” https://www.cas.mcmaster.ca/∼zhengz13/Dataset/Sensor.rar, 2018. <br>
-[5] D. Chen, “Online retail data set,” https://archive.ics.uci.edu/ml/, 2015 <br>
-[6] J. Grosz and N. Rippner, “NBA player data 1978-2016,” https://data.world/jgrosz99/nba-player-data-1978-2016/, 2017.
-
+[3] Z. Zheng. Contextual data cleaning with ontology FDs. In Proceedings of the 2021 ACM SIGMOD International Conference on Management of Data, pages
+2911–2913, 2021. <br>
+[4] M. Alipour, Z. Zheng, F. Chiang, L. Golab, and J. Szlichta. Contextual data cleaning. 2018 IEEE 34th International Conference on Data Engineering (ICDE), pages 21–24, 2018. <br>
+[5] Z. Zheng, M. Alipour, Z. Qu, I. Currie, F. Chiang, L. Golab, and J. Szlichta. Fastofd: Contextual data cleaning with ontology functional dependencies. 21st International Conference on Extending Database Technology (EDBT), pages 694–697, 2018. <br>
+[6] O. Hassanzadeh, A. Kementsietsidis, L. Lim, R. J. Miller, and M. Wang. 2009. LinkedCT: A Linked Data Space for Clinical Trials. Technical Report CSRG-596. University of Toronto. <br>
+[7] Kiva. Data science for good: Kiva crowdfunding. https://www.kaggle.com/datasets/kiva/data-science-for-good-kiva-crowdfunding?select=loan_themes_by_region.csv <br>
+[8] National Library of Medicine. Biomedical terminology, ontologies. https://mor.nlm.nih.gov, 2016.
 
 
 
 
 # CurrentClean
-
-## 1. Overview
-
-CurrentClean is a probabilistic system for detection and cleaning of stale data, which learns both temporal and spatial correlations via past updates and existing data values, to infer data currency. Given an update history, CurrentClean identifies missing updates, quantifies the currency of data values based on their spatio-temporal update patterns, and recommends two types of temporal repairs to current values.
 
 ## 2. Datasets
 
@@ -204,17 +202,6 @@ Continue with the example of Sensor data, you will find two files as the results
 |Sensor_50_Temperature|22.1: 0.5|22.0: 0.5|
 |... ...| ... ...|
 
-## 4. Source Code
-Source code is available at https://github.com/mac-dsl/CurrentClean.
-
-## 5. References
-[1] M. Milani, Z. Zheng, and F. Chiang. Currentclean: Spatio-temporal cleaning of stale data. 2019 IEEE 35th International Conference on Data Engineering
-(ICDE), pages 172–183, 2019. <br>
-[2] Z. Zheng, T. M. Quach, Z. Jin, F. Chiang, and M. Milani. Currentclean: Interactive change exploration and cleaning of stale data. In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM), page 2917–2920, 2019.<br>
-[3] A. Johnson, T. Pollard, M. Ghassemi, B. Moody, P. Szolovits, and R. Mark, “MIMIC-III, a freely accessible critical care database,” Scientific Data, vol. 3, no. 160035, 2016. <br>
-[4] Cinnos Mission Critical, “Data center readings,” https://www.cas.mcmaster.ca/∼zhengz13/Dataset/Sensor.rar, 2018. <br>
-[5] D. Chen, “Online retail data set,” https://archive.ics.uci.edu/ml/, 2015 <br>
-[6] J. Grosz and N. Rippner, “NBA player data 1978-2016,” https://data.world/jgrosz99/nba-player-data-1978-2016/, 2017.
 
 
 
