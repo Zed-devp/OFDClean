@@ -35,7 +35,7 @@ The source code is available at https://github.com/mac-dsl/OFDClean.
 
 ## 5. References
 [1] S. Baskaran, A. Keller, F. Chiang, L. Golab, and J. Szlichta. Efficient discovery of ontology functional dependencies. In CIKM, pages 1847–1856, 2017. <br>
-[2] Z. Zheng, L. Zheng, M. Alipour, F. Chiang, L. Golab, J. Szlichta, S. Baskaran, and A. Keller. Contextual data cleaning with ontology functional dependencies. ACM Journal of Data and Information Quality (JDIQ) https://github.com/zzheng0620/Thesis/blob/main/_JDIQ_2022_Camera_Ready__Contextual_Data_Cleaning_with_Ontology_Functional_Dependencies.pdf, 25 pages, 2022.<br>
+[2] Z. Zheng, L. Zheng, M. Alipour, F. Chiang, L. Golab, J. Szlichta, S. Baskaran, and A. Keller. Contextual data cleaning with ontology functional dependencies. ACM Journal of Data and Information Quality (JDIQ), 25 pages, 2022.<br>
 [3] Z. Zheng. Contextual data cleaning with ontology FDs. In Proceedings of the 2021 ACM SIGMOD International Conference on Management of Data, pages
 2911–2913, 2021. <br>
 [4] M. Alipour, Z. Zheng, F. Chiang, L. Golab, and J. Szlichta. Contextual data cleaning. 2018 IEEE 34th International Conference on Data Engineering (ICDE), pages 21–24, 2018. <br>
