@@ -7,6 +7,12 @@ OFDClean is a framework for holistically finding a set of minimal repairs such t
 
 Dataset, ofds, senses of clinical data of [Python code](https://github.com/ltzheng/OFDClean/tree/master/Python/datasets) and [Java code](https://github.com/ltzheng/OFDClean/tree/master/Java/data). 
 
+We use two real datasets for OFDClean:
+
+<a href="https://www.kaggle.com/datasets/kiva/data-science-for-good-kiva-crowdfunding?select=loan_themes_by_region.csv">Kiva</a>: Kiva database describes loans issued over two years via the Kiva.org online crowdfunding platform to financially excluded citizens around the world. There are 670K records and 15 attributes,  including loan principal amount, loan activity, country code, country, region, funded time and usage.
+
+Clinical: The Linked Clinical Trials (LinkedCT.org) database describes clinical patient data characteristics such as the clinical study, country, medical diagnosis, drugs, illnesses, symptoms, treatment, and outcomes. We use a portion of the dataset with 250K records and 15 attributes. 
+
 ## 3. Getting Started
 ### 3.1 Prerequisites
 Java v1.8 <br>
