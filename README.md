@@ -11,7 +11,7 @@ We use two real datasets for OFDClean:
 
 <a href="https://www.kaggle.com/datasets/kiva/data-science-for-good-kiva-crowdfunding?select=loan_themes_by_region.csv">Kiva</a>: Kiva database describes loans issued over two years via the Kiva.org online crowdfunding platform to financially excluded citizens around the world. There are 670K records and 15 attributes,  including loan principal amount, loan activity, country code, country, region, funded time and usage.
 
-Clinical: The Linked Clinical Trials (LinkedCT.org) database describes clinical patient data characteristics such as the clinical study, country, medical diagnosis, drugs, illnesses, symptoms, treatment, and outcomes. We use a portion of the dataset with 250K records and 15 attributes. 
+<a href="https://arxiv.org/pdf/0908.0567.pdf">Clinical</a>: The Linked Clinical Trials (LinkedCT.org) database describes clinical patient data characteristics such as the clinical study, country, medical diagnosis, drugs, illnesses, symptoms, treatment, and outcomes. We use a portion of the dataset with 250K records and 15 attributes. 
 
 ## 3. Getting Started
 ### 3.1 Prerequisites
