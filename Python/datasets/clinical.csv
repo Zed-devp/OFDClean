@@ -1,2 +1,2 @@
-country, medicine -> disease
 disease -> medicine
+symptoms -> medicine
