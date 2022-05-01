@@ -13,7 +13,7 @@ We use two real datasets for OFDClean:
 
 <a href="https://arxiv.org/pdf/0908.0567.pdf">Clinical</a>: The Linked Clinical Trials (LinkedCT.org) database describes clinical patient data characteristics such as the clinical study, country, countrycode, medical diagnosis, medicine, disease, symptoms, treatment, and outcomes. We use a portion of the dataset with 250K records and 15 attributes.
 
-<a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/data.csv">Sample Data</a>: The subset of Clinical data with 7 attributes and 40 records: id, countrycode, country, disease, medicine, symptoms, clinical study. The ontology with senses and OFDs for the Sample data are shown at <a href="https://github.com/zzheng0620/OFDClean/tree/master/Python/datasets/senses/clinical">Senses</a> and <a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/OFDs.txt">OFDs</a>, respectively. The following table shows 10 records of Sample Data.
+<a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/data.csv">Sample Data</a>: The subset of Clinical data with 7 attributes and 40 records: id, countrycode, country, disease, medicine, symptoms, clinical study. The ontology with senses and OFDs for the Sample data are shown at <a href="https://github.com/zzheng0620/OFDClean/tree/master/Python/datasets/senses/clinical">Senses</a> and <a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/OFDs.txt">OFDs</a>, respectively. The following table shows some example records of Sample Data.
 
 | id        | countrycode      | country  | symptoms        | disease      | medicine  |
 | ------------- |-------------| ------------| ------------- |-------------| ------------|
@@ -23,8 +23,6 @@ We use two real datasets for OFDClean:
 |        4 |      IN | Bharat | nausea  | migraine |  analgesic  
 |        5 |       US | America | nausea  | migraine |  tylenol 
 |        6 |      US | USA |  nausea  |  migraine |  acetaminophen 
-|        7 | IN | India | chest pain  |  hypertension | adizem 
-|        8 | US | USA | headache | hypertension | cartia 
 | ... ...     | ... ...  |   ... ...    | ... ...     | ... ...  |   ... ...    |
 
 
