@@ -15,8 +15,8 @@ id,countrycode,country,disease,medicine,symptoms,clinical study
 14,CA,Canada,Anemia,Epoetin,Fatigue,research
 15,CAN,Canada,Anemia,Epoetin,Fatigue,clinical
 16,CAN,Canada,Anemia,Epoetin,Fatigue,clinical
-17,CA,Canada,Fever,IbuProfen,Sweating,clinical
-18,CAN,Canada,Fever,IbuProfen,Headache,clinical
+17,CA,Canada,Fever,Addaprin,Sweating,clinical
+18,CAN,Canada,Fever,Ibumetin,Headache,clinical
 19,CAN,Canada,Shingles,Jardiance,Upset stomach,clinical
 20,CAN,Canada,Shingles,Janumet,Chills,clinical
 21,IN,India,Anemia,Epoetin,Fatigue,clinical
@@ -37,5 +37,5 @@ id,countrycode,country,disease,medicine,symptoms,clinical study
 36,US,United States,Fever,Advil,Chills,clinical
 37,US,United States,Fever,Advil,Headache,clinical
 38,US,United States,Fever,IbuProfen,Chills,clinical
-39,USA,United States,Fever,IbuProfen,Headache,clinical
+39,USA,United States,Fever,Ibumetin,Headache,clinical
 40,USA,United States,Fever,IbuProfen,Chills,clinical
