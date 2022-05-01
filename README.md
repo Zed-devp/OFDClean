@@ -20,8 +20,8 @@ We use two real datasets for OFDClean:
 |1	        |AUS	        |	Australia	        |	Common cold	        |	Codeine	        |	Sore throat	        |	clinical
 |2	        |AU	        |	Australia	        |	Common cold	        |	Codeine	        |	Cough	        |	clinical
 |3	        |AU	        |	Australia	        |	Common cold	        |	Codeine	        |	Sore throat	        |	clinical
-|4	        |AU	        |	Australia	        |	Common cold	        |	Narcotic	        |	Cough	        |	clinical
-|5	        |AU	        |	Australia	        |	Common cold	        |	Narcotic	        |	Sore throat	        |	clinical
+|4	        |CAN	        |	Canada	        |	Common cold	        |	Narcotic	        |	Cough	        |	clinical
+|5	        |CAN	        |	Canada	        |	Common cold	        |	Narcotic	        |	Sore throat	        |	clinical
 | ... ...     | ... ...  |   ... ...    | ... ...     | ... ...  |   ... ...    |   ... ...    |
 
 
