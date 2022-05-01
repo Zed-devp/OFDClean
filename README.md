@@ -13,7 +13,16 @@ We use two real datasets for OFDClean:
 
 <a href="https://arxiv.org/pdf/0908.0567.pdf">Clinical</a>: The Linked Clinical Trials (LinkedCT.org) database describes clinical patient data characteristics such as the clinical study, country, countrycode, medical diagnosis, medicine, disease, symptoms, treatment, and outcomes. We use a portion of the dataset with 250K records and 15 attributes.
 
-<a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/data.csv">Sample Data</a>: The subset of Clinical data with 7 attributes and 40 records: id, countrycode, country, disease, medicine, symptoms, clinical study. The ontology with senses and OFDs for the Sample data are shown at <a href="https://github.com/zzheng0620/OFDClean/tree/master/Python/datasets/senses/clinical">Senses</a> and <a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/OFDs.txt">OFDs</a>, respectively.
+<a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/data.csv">Sample Data</a>: The subset of Clinical data with 7 attributes and 40 records: id, countrycode, country, disease, medicine, symptoms, clinical study. The ontology with senses and OFDs for the Sample data are shown at <a href="https://github.com/zzheng0620/OFDClean/tree/master/Python/datasets/senses/clinical">Senses</a> and <a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/OFDs.txt">OFDs</a>, respectively. The following table shows example records of Sample Data.
+
+| id        | countrycode      | country  | disease        | medicine      | symptoms  | clinical study  |
+| ------------- |-------------| ------------| ------------- |-------------| ------------| ------------|
+|1	        |AUS	        |	Australia	        |	Common cold	        |	Codeine	        |	Sore throat	        |	clinical
+|2	        |AU	        |	Australia	        |	Common cold	        |	Codeine	        |	Sore throat	        |	clinical
+|3	        |AU	        |	Australia	        |	Common cold	        |	Codeine	        |	Sore throat	        |	clinical
+|4	        |AU	        |	Australia	        |	Common cold	        |	Narcotic	        |	Cough	        |	clinical
+|5	        |AU	        |	Australia	        |	Common cold	        |	Narcotic	        |	Sore throat	        |	clinical
+| ... ...     | ... ...  |   ... ...    | ... ...     | ... ...  |   ... ...    |   ... ...    |
 
 
 ## 3. Getting Started
