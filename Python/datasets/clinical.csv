@@ -1,0 +1,3 @@
+country, medicine -> disease
+disease -> medicine
+country -> country code
