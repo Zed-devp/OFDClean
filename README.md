@@ -13,16 +13,21 @@ We use two real datasets for OFDClean:
 
 <a href="https://arxiv.org/pdf/0908.0567.pdf">Clinical</a>: The Linked Clinical Trials (LinkedCT.org) database describes clinical patient data characteristics such as the clinical study, country, countrycode, medical diagnosis, medicine, disease, symptoms, treatment, and outcomes. We use a portion of the dataset with 250K records and 15 attributes.
 
-<a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/data.csv">Sample Data</a>: The subset of Clinical data with 7 attributes and 40 records: id, countrycode, country, disease, medicine, symptoms, clinical study. The ontology with senses and OFDs for the Sample data are shown at <a href="https://github.com/zzheng0620/OFDClean/tree/master/Python/datasets/senses/clinical">Senses</a> and <a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/OFDs.txt">OFDs</a>, respectively. The following table shows example records of Sample Data.
+<a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/data.csv">Sample Data</a>: The subset of Clinical data with 7 attributes and 40 records: id, countrycode, country, disease, medicine, symptoms, clinical study. The ontology with senses and OFDs for the Sample data are shown at <a href="https://github.com/zzheng0620/OFDClean/tree/master/Python/datasets/senses/clinical">Senses</a> and <a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/OFDs.txt">OFDs</a>, respectively. The following table shows 10 records of Sample Data.
 
-| id        | countrycode      | country  | disease        | medicine      | symptoms  | clinical study  |
-| ------------- |-------------| ------------| ------------- |-------------| ------------| ------------|
-|1	        |AUS	        |	Australia	        |	Common cold	        |	Codeine	        |	Sore throat	        |	clinical
-|2	        |AU	        |	Australia	        |	Common cold	        |	Codeine	        |	Cough	        |	clinical
-|3	        |AU	        |	Australia	        |	Common cold	        |	Codeine	        |	Sore throat	        |	clinical
-|4	        |CAN	        |	Canada	        |	Common cold	        |	Narcotic	        |	Cough	        |	clinical
-|5	        |CAN	        |	Canada	        |	Common cold	        |	Narcotic	        |	Sore throat	        |	clinical
-| ... ...     | ... ...  |   ... ...    | ... ...     | ... ...  |   ... ...    |   ... ...    |
+| id        | countrycode      | country  | symptoms        | disease      | medicine  |
+| ------------- |-------------| ------------| ------------- |-------------| ------------|
+|       1 |      US | USA |  joint pain | osteoarthritis | ibuprofen 
+|        2 |      IN | India | joint pain  | osteoarthritis | NSAID  
+|       3 |     CA | Canada | joint pain  | osteoarthritis | naproxen 
+|        4 |      IN | Bharat | nausea  | migraine |  analgesic  
+|        5 |       US | America | nausea  | migraine |  tylenol 
+|        6 |      US | USA |  nausea  |  migraine |  acetaminophen 
+|        7 | IN | India | chest pain  |  hypertension | morphine 
+|        8 | US | USA | headache | hypertension | cartia 
+|        9 | US | USA | headache | hypertension | ASA 
+|       10 | US | America | headache | hypertension | adizem 
+| ... ...     | ... ...  |   ... ...    | ... ...     | ... ...  |   ... ...    |
 
 
 ## 3. Getting Started
