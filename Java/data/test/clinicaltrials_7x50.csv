@@ -1,6 +1,6 @@
 id,countrycode,country,disease,medicine,symptoms,clinical study
 1,AUS,Australia,Common cold,Codeine,Sore throat,clinical
-2,AU,Australia,Common cold,Codeine,Sore throat,clinical
+2,AU,Australia,Common cold,Codeine,Cough,clinical
 3,AU,Australia,Common cold,Narcotic,Sore throat,clinical
 4,AU,Australia,Common cold,Narcotic,Cough,clinical
 5,AU,Australia,Common cold,Codeine,Sore throat,clinical
