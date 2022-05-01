@@ -58,13 +58,6 @@ $ python main.py
 ```
 
 
-
- Java code 
-
-- Repair data by beam search
-- Provided by Zheng Zheng
-
-
 ## 4. Source code
 
 The source code is available at https://github.com/mac-dsl/OFDClean. 
