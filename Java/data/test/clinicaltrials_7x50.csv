@@ -1,15 +1,4 @@
 id,countrycode,country,disease,medicine,symptoms,clinical study
-13,CAN,Canada,Anemia,Epoetin,Fatigue,research
-14,CA,Canada,Anemia,Epoetin,Fatigue,research
-15,CAN,Canada,Anemia,Epoetin,Fatigue,clinical
-16,CAN,Canada,Anemia,Epoetin,Fatigue,clinical
-21,IN,India,Anemia,Epoetin,Fatigue,clinical
-22,IND,India,Anemia,Epoetin,Fatigue,clinical
-23,IN,India,Anemia,Epoetin,Fatigue,clinical
-24,IN,India,Anemia,Epoetin,Fatigue,clinical
-25,IN,India,Anemia,Epoetin,Fatigue,clinical
-26,IND,India,Anemia,Epoetin,Fatigue,research
-27,IND,India,Anemia,Epoetin,Fatigue,research
 1,AUS,Australia,Common cold,Codeine,Sore throat,clinical
 2,AU,Australia,Common cold,Codeine,Sore throat,clinical
 3,AU,Australia,Common cold,Codeine,Sore throat,clinical
@@ -17,25 +6,36 @@ id,countrycode,country,disease,medicine,symptoms,clinical study
 5,AU,Australia,Common cold,Codeine,Sore throat,clinical
 6,AUS,Australia,Common cold,Codeine,Cough,clinical
 7,AU,Australia,Common cold,Narcotic,Cough,clinical
+8,AUS,Australia,Fever,Advil,Headache,clinical
+9,AUS,Australia,Fever,Advil,Headache,clinical
+10,AU,Australia,Shingles,Janumet,Headache,clinical
+11,AU,Australia,Shingles,Janumet,Headache,clinical
+12,AU,Australia,Shingles,Jardiance,Upset stomach,clinical
+13,CAN,Canada,Anemia,Epoetin,Fatigue,research
+14,CA,Canada,Anemia,Epoetin,Fatigue,research
+15,CAN,Canada,Anemia,Epoetin,Fatigue,clinical
+16,CAN,Canada,Anemia,Epoetin,Fatigue,clinical
+17,CA,Canada,Fever,IbuProfen,Sweating,clinical
+18,CAN,Canada,Fever,IbuProfen,Headache,clinical
+19,CAN,Canada,Shingles,Jardiance,Upset stomach,clinical
+20,CAN,Canada,Shingles,Janumet,Chills,clinical
+21,IN,India,Anemia,Epoetin,Fatigue,clinical
+22,IND,India,Anemia,Epoetin,Fatigue,clinical
+23,IN,India,Anemia,Epoetin,Fatigue,clinical
+24,IN,India,Anemia,Epoetin,Fatigue,clinical
+25,IN,India,Anemia,Epoetin,Fatigue,clinical
+26,IND,India,Anemia,Epoetin,Fatigue,research
+27,IND,India,Anemia,Epoetin,Fatigue,research
 28,IN,India,Common cold,Codeine,Sneezing,clinical
 29,IND,India,Common cold,Narcotic,Cough,research
+30,IN,India,Fever,Advil,Sweating,clinical
+31,IN,India,Shingles,Janumet,Chills,clinical
 32,US,United States,Common cold,Narcotic,Sneezing,clinical
 33,USA,United States,Common cold,Narcotic,Sneezing,clinical
 34,USA,United States,Common cold,Narcotic,Sneezing,clinical
-8,AUS,Australia,Fever,Advil,Headache,clinical
-9,AUS,Australia,Fever,Advil,Headache,clinical
-17,CA,Canada,Fever,IbuProfen,Sweating,clinical
-18,CAN,Canada,Fever,IbuProfen,Headache,clinical
-30,IN,India,Fever,Advil,Sweating,clinical
 35,US,United States,Fever,Advil,Headache,clinical
 36,US,United States,Fever,Advil,Chills,clinical
 37,US,United States,Fever,Advil,Headache,clinical
 38,US,United States,Fever,IbuProfen,Chills,clinical
 39,USA,United States,Fever,IbuProfen,Headache,clinical
 40,USA,United States,Fever,IbuProfen,Chills,clinical
-10,AU,Australia,Shingles,Janumet,Headache,clinical
-11,AU,Australia,Shingles,Janumet,Headache,clinical
-12,AU,Australia,Shingles,Jardiance,Upset stomach,clinical
-19,CAN,Canada,Shingles,Jardiance,Upset stomach,clinical
-20,CAN,Canada,Shingles,Janumet,Chills,clinical
-31,IN,India,Shingles,Janumet,Chills,clinical
