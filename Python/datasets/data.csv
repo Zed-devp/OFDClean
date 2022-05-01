@@ -1,41 +1,41 @@
-id,countrycode,country,disease,medicine,symptoms,clinical study
-1,AUS,Australia,Common cold,Codeine,Sore throat,clinical
-2,AU,Australia,Common cold,Codeine,Cough,clinical
-3,AU,Australia,Common cold,Narcotic,Sore throat,clinical
-4,CAN,Canada,Common cold,Narcotic,Cough,clinical
-5,CAN,Canada,Common cold,Codeine,Sore throat,clinical
-6,AUS,Australia,Common cold,Codeine,Cough,clinical
-7,AU,Australia,Common cold,Narcotic,Cough,clinical
-8,AUS,Australia,Fever,Advil,Headache,clinical
-9,AUS,Australia,Fever,Advil,Headache,clinical
-10,AU,Australia,Shingles,Janumet,Headache,clinical
-11,AU,Australia,Shingles,Janumet,Headache,clinical
-12,AU,Australia,Shingles,Jardiance,Upset stomach,clinical
-13,CAN,Canada,Anemia,Epoetin,Fatigue,research
-14,CA,Canada,Anemia,Epoetin,Fatigue,research
-15,CAN,Canada,Anemia,Epoetin,Fatigue,clinical
-16,CAN,Canada,Anemia,Epoetin,Fatigue,clinical
-17,CA,Canada,Fever,Addaprin,Sweating,clinical
-18,CAN,Canada,Fever,Ibumetin,Headache,clinical
-19,CAN,Canada,Shingles,Jardiance,Upset stomach,clinical
-20,CAN,Canada,Shingles,Janumet,Chills,clinical
-21,IN,India,Anemia,Epoetin,Fatigue,clinical
-22,IND,India,Anemia,Epoetin,Fatigue,clinical
-23,IN,India,Anemia,Epoetin,Fatigue,clinical
-24,IN,India,Anemia,Epoetin,Fatigue,clinical
-25,IN,India,Anemia,Epoetin,Fatigue,clinical
-26,IND,India,Anemia,Epoetin,Fatigue,research
-27,IND,India,Anemia,Epoetin,Fatigue,research
-28,IN,India,Common cold,Codeine,Sneezing,clinical
-29,IND,India,Common cold,Narcotic,Cough,research
-30,IN,India,Fever,Advil,Sweating,clinical
-31,IN,India,Shingles,Janumet,Chills,clinical
-32,US,United States,Common cold,Narcotic,Sneezing,clinical
-33,USA,United States,Common cold,Narcotic,Sneezing,clinical
-34,USA,United States,Common cold,Narcotic,Sneezing,clinical
-35,US,United States,Fever,Advil,Headache,clinical
-36,US,United States,Fever,Advil,Chills,clinical
-37,US,United States,Fever,Advil,Headache,clinical
-38,US,United States,Fever,IbuProfen,Chills,clinical
-39,USA,United States,Fever,Ibumetin,Headache,clinical
-40,USA,United States,Fever,IbuProfen,Chills,clinical
+id,countrycode,country,symptoms,disease,medicine
+1,US,USA,jointpain,osteoarthritis,ibuprofen
+2,IN,India,jointpain,osteoarthritis,NSAID
+3,CA,Canada,jointpain,osteoarthritis,naproxen
+4,IN,Bharat,nausea,migraine,analgesic
+5,US,America,nausea,migraine,tylenol
+6,US,USA,nausea,migraine,acetaminophen
+7,IN,India,chestpain,hypertension,morphine
+8,US,USA,headache,hypertension,tiazac
+9,US,USA,headache,hypertension,ASA
+10,US,America,headache,hypertension,tiazac
+11,US,USA,headache,hypertension,adizem
+12,US,USA,jointpain,osteoarthritis,ibuprofen
+13,IN,India,jointpain,osteoarthritis,NSAID
+14,CA,Canada,jointpain,osteoarthritis,naproxen
+15,IN,Bharat,nausea,migraine,analgesic
+16,US,America,nausea,migraine,tylenol
+17,US,USA,nausea,migraine,acetaminophen
+18,IN,India,chestpain,hypertension,morphine
+19,US,USA,headache,hypertension,cartia
+20,US,USA,headache,hypertension,ASA
+21,US,America,headache,hypertension,tiazac
+22,US,USA,headache,hypertension,adizem
+23,US,USA,jointpain,osteoarthritis,ibuprofen
+24,IN,India,jointpain,osteoarthritis,NSAID
+25,CA,Canada,jointpain,osteoarthritis,naproxen
+26,IN,Bharat,nausea,migraine,analgesic
+27,US,America,nausea,migraine,tylenol
+28,US,USA,nausea,migraine,acetaminophen
+29,IN,India,chestpain,hypertension,morphine
+30,US,USA,headache,hypertension,cartia
+31,US,USA,headache,hypertension,ASA
+32,US,America,headache,hypertension,tiazac
+33,US,USA,headache,hypertension,adizem
+34,US,USA,jointpain,osteoarthritis,ibuprofen
+35,IN,India,jointpain,osteoarthritis,NSAID
+36,CA,Canada,jointpain,osteoarthritis,naproxen
+37,IN,Bharat,nausea,migraine,analgesic
+38,US,America,nausea,migraine,tylenol
+39,US,USA,nausea,migraine,acetaminophen
+40,IN,India,chestpain,hypertension,morphine
