@@ -28,9 +28,18 @@ The ontology with senses and OFDs for the Sample data are shown at <a href="http
 
 
 ## 3. Getting Started
+The code consists of two parts: Python code and Java code. <br>
+
+Python code: (1) assigns initial sense for each equvilence class (eq), and (2) refines the local sense for each eq to achieve global sense assignment. <br>
+
+Java code: (1) finds the ontology repair candiates, (2) for each k-combinations of candiates, compute the minimal data repair by beam search algorithm, and (3) report the Pareto-optimal solution for data and ontology repair.
+
+
 ### 3.1 Prerequisites
 Java v1.8 <br>
-DeepDive v0.8.0 <br>
+Python 3.6 <br>
+
+### 3.2 Prerequisites
 
 Input data should align with the format in directory `datasets`
 
