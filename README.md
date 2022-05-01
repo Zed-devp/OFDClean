@@ -16,13 +16,16 @@ We use two real datasets for OFDClean:
 <a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/data.csv">Sample Data</a>: The subset of Clinical data with 7 attributes and 3394 records: id, countrycode, country, disease, medicine, status, clinical study. The following table shows 5 records as an example:
 
 | id        | countrycode      | country  | disease      | medicine  | status | clinical study
-| ------------- |-------------| ------------| ------------- |-------------| ------------| ------------|
-| 1	        |CA		        |Canada		        |asthma		        |Advair		        |complete		        |research
-|2		        |CANADA	     |	Canada		        |asthma		        |Advair		        |active		        |clinical
+|------------- |-------------| ------------| ------------- |-------------| ------------| ------------|
+|1	        |CA		        |Canada		        |asthma		        |Advair		        |complete		        |research
+|2		        |CANADA	     |Canada		        |asthma		        |Advair		        |active		        |clinical
 |3		        |GER		       |Germany		        |asthma		        |Advair		        |active		        |clinical
 |4		        |GERMANY		   |Germany		        |asthma		        |Advicor		        |active		        |clinical
 |5		        |DE		        |Germany		        |asthma_attacks		|Advair		        |active		        |clinical
 | ... ...     | ... ...  |   ... ...    | ... ...     | ... ...  |   ... ...    |   ... ...    |
+
+The ontology with senses and OFDs for the Sample data are shown at <a href="https://github.com/zzheng0620/OFDClean/tree/master/Python/datasets/senses/clinical">Senses</a> and <a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/clinical.csv">OFDs</a>, respectively.
+
 
 ## 3. Getting Started
 ### 3.1 Prerequisites
