@@ -13,7 +13,7 @@ We use two real datasets for OFDClean:
 
 <a href="https://arxiv.org/pdf/0908.0567.pdf">Clinical</a>: The Linked Clinical Trials (LinkedCT.org) database describes clinical patient data characteristics such as the clinical study, country, countrycode, medical diagnosis, medicine, disease, symptoms, treatment, and outcomes. We use a portion of the dataset with 250K records and 15 attributes.
 
-<a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/data.csv">Sample Data</a>: The subset of Clinical data with 7 attributes and 50 records: id, countrycode, country, disease, medicine, status, clinical study. The following table shows 5 records as an example:
+<a href="https://github.com/zzheng0620/OFDClean/blob/master/Python/datasets/data.csv">Sample Data</a>: The subset of Clinical data with 7 attributes and 40 records: id, countrycode, country, disease, medicine, status, clinical study. The following table shows 5 records as an example:
 
 | id        | countrycode      | country  | disease      | medicine  | status | clinical study
 |------------- |-------------| ------------| ------------- |-------------| ------------| ------------|
