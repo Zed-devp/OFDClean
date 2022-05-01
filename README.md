@@ -4,9 +4,6 @@
 OFDClean is a framework for holistically finding a set of minimal repairs such that data satisfies the given Ontology Functional Dependencies (OFDs) w.r.t. the modified ontologies.
 
 ## 2. Datasets
-
-Dataset, ofds, senses of clinical data of [Python code](https://github.com/ltzheng/OFDClean/tree/master/Python/datasets) and [Java code](https://github.com/ltzheng/OFDClean/tree/master/Java/data). 
-
 We use two real datasets for OFDClean:
 
 <a href="https://www.kaggle.com/datasets/kiva/data-science-for-good-kiva-crowdfunding?select=loan_themes_by_region.csv">Kiva</a>: Kiva database describes loans issued over two years via the Kiva.org online crowdfunding platform to financially excluded citizens around the world. There are 670K records and 15 attributes,  including loan principal amount, loan activity, country code, country, region, funded time and usage.
@@ -17,21 +14,21 @@ We use two real datasets for OFDClean:
 
 | id        | countrycode      | country  | symptoms        | disease      | medicine  |
 | ------------- |-------------| ------------| ------------- |-------------| ------------|
-|       1 |      US | USA |  joint pain | osteoarthritis | ibuprofen 
-|        2 |      IN | India | joint pain  | osteoarthritis | NSAID  
-|       3 |     CA | Canada | joint pain  | osteoarthritis | naproxen 
-|        4 |      IN | Bharat | nausea  | migraine |  analgesic  
-|        5 |       US | America | nausea  | migraine |  tylenol 
-|        6 |      US | USA |  nausea  |  migraine |  acetaminophen 
+|       1 |      US | USA |  joint pain | osteoarthritis | ibuprofen |
+|        2 |      IN | India | joint pain  | osteoarthritis | NSAID  |
+|       3 |     CA | Canada | joint pain  | osteoarthritis | naproxen |
+|        4 |      IN | Bharat | nausea  | migraine |  analgesic  |
+|        5 |       US | America | nausea  | migraine |  tylenol |
+|        6 |      US | USA |  nausea  |  migraine |  acetaminophen |
 | ... ...     | ... ...  |   ... ...    | ... ...     | ... ...  |   ... ...    |
 
 
 ## 3. Getting Started
 The code consists of two parts: Python code and Java code, which focuses on sense assignment and repair, respectively. <br>
 
-Sense assignment (Python code): (1) assigns initial sense for each equvilence class, and (2) refines the local sense for each equvilence class to achieve global sense assignment. <br>
+Sense assignment ([Python code](https://github.com/ltzheng/OFDClean/tree/master/Python/datasets)): (1) assigns initial sense for each equvilence class, and (2) refines the local sense for each equvilence class to achieve global sense assignment. <br>
 
-Data and ontology repair (Java code): (1) finds the ontology repair candiates, (2) for each k-combinations of candiates, computes the minimal data repair by beam search algorithm, and (3) reports the Pareto-optimal solution for data and ontology repair.
+Data and ontology repair ([Java code](https://github.com/ltzheng/OFDClean/tree/master/Java/data)): (1) finds the ontology repair candiates, (2) for each k-combinations of candiates, computes the minimal data repair by beam search algorithm, and (3) reports the Pareto-optimal solution for data and ontology repair.
 
 
 ### 3.1 Prerequisites
