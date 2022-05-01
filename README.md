@@ -28,28 +28,35 @@ The ontology with senses and OFDs for the Sample data are shown at <a href="http
 
 
 ## 3. Getting Started
-The code consists of two parts: Python code and Java code. <br>
+The code consists of two parts: Python code and Java code, which focuses on sense assignment and repair, respectively. <br>
 
-Python code: (1) assigns initial sense for each equvilence class (eq), and (2) refines the local sense for each eq to achieve global sense assignment. <br>
+Sense assignment (Python code): (1) assigns initial sense for each equvilence class, and (2) refines the local sense for each equvilence class to achieve global sense assignment. <br>
 
-Java code: (1) finds the ontology repair candiates, (2) for each k-combinations of candiates, compute the minimal data repair by beam search algorithm, and (3) report the Pareto-optimal solution for data and ontology repair.
+Data and ontology repair (Java code): (1) finds the ontology repair candiates, (2) for each k-combinations of candiates, computes the minimal data repair by beam search algorithm, and (3) reports the Pareto-optimal solution for data and ontology repair.
 
 
 ### 3.1 Prerequisites
 Java v1.8 <br>
 Python 3.6 <br>
 
-### 3.2 Prerequisites
+### 3.2 Sense Assignment
 
-Input data should align with the format in directory `datasets`
+Put the OFDs, dataset, and ontology with senses in the following directory. <br>
+Note: Input data should align with the format in directory. <br>
+```Bash
+$ ../OFDClean/tree/master/Python/datasets
+```
 
-onfigure the path of data, OFDs, and senses in `main.py`, then run `python main.py`.
+Onfigure the path of data, OFDs, and senses in the main file. <br>
+```Bash
+$ ../OFDClean/blob/master/Python/main.py
+```
 
- Python code 
+Run `main.py`. <br>
+```Bash
+$ python main.py
+```
 
-- Initial sense assignment
-- Local sense refinement
-- Provided by Longtao Zheng
 
 
  Java code 
