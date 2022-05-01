@@ -56,6 +56,16 @@ Run `main.py`. <br>
 $ python main.py
 ```
 
+Sense assignment result of Sample data is shown as follows:
+
+| equivalence class (tuple id)       | sense     |
+| ------------- |-------------|
+| {2,14,15,33}	|FDA|
+| {11,12,13,19,20,24,27,28,35,37,39,40}	|FDA|
+| {1,3,5,6,7,8,9,10,16,21,29,32}	|MoH|
+| {4,17,18,22,23,25,26,30,31,34,36,38}	|FDA|
+| {2,11,12,13,14,15,19,20,24,27,28,33,35,37,39,40}     | FDA |
+
 
 ## 4. Source code
 
