@@ -23,10 +23,8 @@ We use two real datasets for OFDClean:
 |        4 |      IN | Bharat | nausea  | migraine |  analgesic  
 |        5 |       US | America | nausea  | migraine |  tylenol 
 |        6 |      US | USA |  nausea  |  migraine |  acetaminophen 
-|        7 | IN | India | chest pain  |  hypertension | morphine 
+|        7 | IN | India | chest pain  |  hypertension | adizem 
 |        8 | US | USA | headache | hypertension | cartia 
-|        9 | US | USA | headache | hypertension | ASA 
-|       10 | US | America | headache | hypertension | adizem 
 | ... ...     | ... ...  |   ... ...    | ... ...     | ... ...  |   ... ...    |
 
 
