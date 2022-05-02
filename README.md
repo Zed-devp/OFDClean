@@ -37,8 +37,7 @@ Python 3.6 <br>
 
 ### 3.2 Sense Assignment
 
-Put the OFDs (OFDs.txt), dataset (data.csv), and ontology with senses (medicine.csv) in the following directory. <br>
-Note: Input data should align with the format in directory. <br>
+Put the OFDs (OFDs.txt), dataset (data.csv), and ontology with senses (medicine.csv) in the following directory. Note: Input data should align with the format in directory. <br>
 ```Bash
 $ ../OFDClean/tree/master/Python/datasets
 ```
