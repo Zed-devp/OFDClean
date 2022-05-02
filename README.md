@@ -79,6 +79,21 @@ Run `AppMain.java` in IDE or in command line. <br>
 $ java -jar AppMain.jar
 ```
 
+Repair result `repairs.txt` can be found at `/OFDClean/tree/master/Java/output`.<br>
+For example, repair result of Sample data is shown as follows:
+
+| data repair      | ontology repair     |sense| remark
+| ------------- |-------------|-------------|-------------|
+| {9,11,20,22,31,33}: {cartia, tiazac, cardizem}	|null|FDA| 6 data repair + 0 ontology repair|
+| {9,20,31}: {cartia, tiazac, cardizem} |{adizem}: {cartia}|FDA| 3 data repair + 1 ontology repair|
+| {11,22,33}: {cartia, tiazac, cardizem} |{ASA}: {cartia}|FDA| 3 data repair + 1 ontology repair|
+| null| {ASA,adizem}: {cartia} |FDA| 0 data repair + 2 ontology repair|
+| {10,11,21,22,32,33}: {cartia, aspirin, ASA}	|null|MoH| 6 data repair + 0 ontology repair|
+| {10,21,32}: {cartia, aspirin, ASA} |{adizem}: {cartia}|MoH| 3 data repair + 1 ontology repair|
+| {11,22,33}: {cartia, aspirin, ASA} |{tiazac}: {cartia}|MoH| 3 data repair + 1 ontology repair|
+| null| {tiazac,adizem}: {cartia} |MoH| 0 data repair + 2 ontology repair|
+
+
 ## 4. Source code
 
 The source code is available at https://github.com/mac-dsl/OFDClean. 
