@@ -26,9 +26,9 @@ We use two real datasets for OFDClean:
 ## 3. Getting Started
 The code consists of two parts: Python code and Java code, which focuses on sense assignment and repair, respectively. <br>
 
-Sense assignment ([Python code](https://github.com/ltzheng/OFDClean/tree/master/Python/datasets)): (1) assigns initial sense for each equvilence class, and (2) refines the local sense for each equvilence class to achieve global sense assignment. <br>
+Sense assignment ([Python code](https://github.com/ltzheng/OFDClean/tree/master/Python/)): (1) assigns initial sense for each equvilence class, and (2) refines the local sense for each equvilence class to achieve global sense assignment. <br>
 
-Data and ontology repair ([Java code](https://github.com/ltzheng/OFDClean/tree/master/Java/data)): (1) finds the ontology repair candiates, (2) for each k-combinations of candiates, computes the minimal data repair by beam search algorithm, and (3) reports the Pareto-optimal solution for data and ontology repair.
+Data and ontology repair ([Java code](https://github.com/ltzheng/OFDClean/tree/master/Java/)): (1) finds the ontology repair candiates, (2) for each k-combinations of candiates, computes the minimal data repair by beam search algorithm, and (3) reports the Pareto-optimal solution for data and ontology repair.
 
 
 ### 3.1 Prerequisites
