@@ -1,2 +1,0 @@
-workclass->salary
-ID->sex
