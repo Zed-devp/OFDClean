@@ -1,0 +1,26 @@
+FDA:acetaminophen,tylenol
+FDA:analgesic,ibuprofen
+FDA:addaprin,ibuprofen
+FDA:ibumetin,ibuprofen
+FDA:Advil,ibuprofen
+MOH:acetaminophen,tylenol
+MOH:analgesic,ibuprofen
+MOH:addaprin,ibuprofen
+MOH:ibumetin,ibuprofen
+MOH:Advil,ibuprofen
+FDA:diltiazem hydrochloride,cartia
+FDA:diltiazem hydrochloride,tiazac
+FDA:diltiazem hydrochloride,cardizem
+FDA:tiazac,cartia
+FDA:cardizem,cartia
+FDA:tiazac,cardizem
+MOH:benzoic acids,cartia
+MOH:benzoic acids,aspirin
+MOH:benzoic acids,ASA
+MOH:aspirin,cartia
+MOH:ASA,cartia
+MOH:aspirin,ASA
+FDA:NSAID,ibuprofen
+MOH:NSAID,ibuprofen
+FDA:opioid,morphine
+MOH:opioid,morphine
