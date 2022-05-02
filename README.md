@@ -65,8 +65,7 @@ For example, sense assignment result of Sample data is shown as follows:
 | {2,11,12,13,14,15,19,20,24,27,28,33,35,37,39,40}     | FDA |
 
 ### 3.3 Data and Ontology Repair
-Put the OFDs (OFDs.txt), dataset (data.csv), ontology with senses (medicine.csv), and the sense assignment for each equvilence class (senses.txt) in the following directory. <br>
-Note: Input data should align with the format in directory. <br>
+Put the OFDs (OFDs.txt), dataset (data.csv), ontology with senses (medicine.csv), and the sense assignment for each equvilence class (senses.txt) in the following directory. Note: Input data should align with the format in directory. <br>
 ```Bash
 $ ../OFDClean/tree/master/Java/data
 ```
