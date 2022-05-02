@@ -52,7 +52,7 @@ Run `main.py`. <br>
 $ python main.py
 ```
 
-Sense assignment result `sense.txt` can be found at `/OFDClean/tree/master/Python/output`.<br>
+Sense assignment result `senses.txt` can be found at `/OFDClean/tree/master/Python/output`.<br>
 For example, sense assignment result of Sample data is shown as follows:
 
 | equivalence class (tuple id)       | sense     |
@@ -64,13 +64,20 @@ For example, sense assignment result of Sample data is shown as follows:
 | {2,11,12,13,14,15,19,20,24,27,28,33,35,37,39,40}     | FDA |
 
 ### 3.3 Data and Ontology Repair
-Put the OFDs (OFDs.txt), dataset (data.csv), ontology with senses (medicine.csv), and the sense assignment for each equvilence class (senses.txt) in the following directory. Note: Input data should align with the format in directory. <br>
+Put the OFDs (OFDs.txt), dataset (data.csv), ontology with senses (ontology.csv), and the sense assignment for each equvilence class (senses.txt) in the following directory. Note: Input data should align with the format in directory. <br>
 ```Bash
 $ ../OFDClean/tree/master/Java/data
 ```
 
+Onfigure the path of data, OFDs, and senses in the main file. <br>
+```Bash
+$ ../OFDClean/tree/master/Java/src/AppMain.java
+```
 
-
+Run `AppMain.java` in IDE or in command line. <br>
+```Bash
+$ java -jar AppMain.jar
+```
 
 ## 4. Source code
 
