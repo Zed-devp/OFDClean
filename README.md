@@ -53,7 +53,8 @@ Run `main.py`. <br>
 $ python main.py
 ```
 
-Sense assignment result of Sample data is shown as follows:
+Sense assignment result can be found at `/OFDClean/tree/master/Python/output`.<br>
+For example, sense assignment result of Sample data is shown as follows:
 
 | equivalence class (tuple id)       | sense     |
 | ------------- |-------------|
