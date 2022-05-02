@@ -1,0 +1,2 @@
+disease -> medicine
+symptoms -> medicine

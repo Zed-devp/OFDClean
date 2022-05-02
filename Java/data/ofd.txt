@@ -1,2 +1,0 @@
-country,medicine->disease
-disease->medicine
